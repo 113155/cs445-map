@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(228, 197, 20, 0.315);
+        }
+        .imageContainer{
+            display: flex;
+            justify-content: center;
+            margin-top: 150px;
+            gap:50px;
+        }
+        input{
+            background-color:rgba(238, 204, 9, 0.568);
+            color:black; 
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: large;
+            height: 40px;
+            align-self: center;
+        }
+        img{
+            border-radius: 10px;
+            width:400px;
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+    <script defer>
+        function swapImages(){
+    
+            let img1 = document.getElementById("img1");
+            let img2 = document.getElementById("img2");
+
+            let img1SRC = img1.src;
+            let img2SRC = img2.src;
+            
+            img1.src = img2SRC;
+            img2.src = img1SRC;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div class="imageContainer">
+            <img id="img1" src="/lab4/images/image-8.jpg">
+            <input type="button" value="Swap" onclick="swapImages()">
+            <img id="img2" src="/lab4/images/image-11.jpg">
+        </div>
+       
+    </div>
+</body>
+</html>
