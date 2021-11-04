@@ -16,5 +16,5 @@ const isPrime = num => {
     .catch(err => console.error(err.message)); 
 }
 console.log('start');
-isPrime(11);
+isPrime(7);
 console.log('end');
