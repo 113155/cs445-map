@@ -1,0 +1,29 @@
+/* employees.css */
+
+h2{
+    text-align: center;
+    margin: 30px;
+    color: yellowgreen;
+}
+.myFlex {
+    display: flex;
+    gap: 200px;
+
+}
+#refreshBtn{
+    color: white;
+    background-color: yellowgreen;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 100px 100px 100px;
+}
+img{
+    border-radius: 5px;
+}
+.names{
+    font-weight: bold;
+}
+.phones{
+    margin-bottom: -15px;
+}
