@@ -1,0 +1,25 @@
+/* app.css */
+
+#mainContainer{
+    margin: 30px;
+}
+#input{
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: larger;
+}
+#inputMsg{
+    font-size: larger;
+}
+#btn {
+    padding:10px;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.644);
+
+}
+#employeeDiv{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
